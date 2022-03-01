@@ -42,16 +42,16 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top: 1.5em;
   width: 30%;
   height: 30em;
+  top: 3em;
+  left: 8em;
 }
 .logo-image{
   position: relative;
 }
 .logo-name{
   position: relative;
-  width: 330%;
   bottom: 4.5em;
   right: 1em;
   z-index: 1;
@@ -73,7 +73,7 @@ header h2{
   position: relative;
   font-size: 50px;
   text-transform: uppercase;
-  width: 57%;
+  width: 60%;
   top: 8%;
   left: 22%;
 }
@@ -292,7 +292,7 @@ header h2{
     left: 12%;
   }
   .logo-name{
-    width: 200%;
+    width: 210%;
   }
   header h2{
     font-size: 30px;
@@ -335,6 +335,9 @@ header h2{
   }
   .logo{
     left: 0%;
+  }
+  .logo-name{
+    width: 280%;
   }
   header h2{
     font-size: 25px;
@@ -407,6 +410,10 @@ header h2{
   .logo-image{
     width: 300%;
   }
+  .logo-name{
+    bottom: 15%;
+    width: 340%;
+  }
   header h2{
     font-size: 20px;
     top: 24em;
@@ -474,6 +481,9 @@ header h2{
   }
   main{
     height: 58em;
+  }
+  .logo-name{
+    bottom: 10%;
   }
   header h2{
     top: 32em;
